@@ -26,7 +26,7 @@ print("Hello World 3, it's python")
 print('"Quality means doing it right when no one is looking." – Henry Ford') 
 
 #print a quote along with double quotes in a string
-print('''"When Henry Ford made cheap, reliable cars, people said, 'Nah, what's wrong with a horse?' That was a huge bet he made, and it worked."- Elon Musk ''')
+print('''"When Henry Ford made cheap, reliable cars, people said, 'Nah, what's wrong with a horse?' That was a huge bet he made, and it worked." - Elon Musk ''')
 
 
 #print without new line character , end ='' (end ='' will add last character as '', end='\n' will add the new line character at the end of the string
