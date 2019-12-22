@@ -1,9 +1,10 @@
 #created file on windows OS
 
 #including header file
-
+import sys
 import os
 import datetime
+import time
 
 from datetime import datetime
 
@@ -36,3 +37,18 @@ print(f'Operating system name is : {osName}')
 
 #printing today's datetime 
 print(datetime.today()) 
+
+#open file in write mode with UTF-8 encoding 
+sample= open(r'.\a.txt','w',encoding='utf-8')
+print(sample)
+
+#print the output to the file instantly with flush = True 
+for i in range(10):
+    print("bla bla", file= sample , flush =True) 
+    time.sleep(5)
+
+#print the output to the file with buffering when flush = False 
+#by default flush parameter is set to False
+for i in range(10):
+    print("Eat fruits", file= sample) 
+    time.sleep(5)
